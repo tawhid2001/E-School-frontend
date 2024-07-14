@@ -52,7 +52,7 @@
       const userEdit = () => {
         const token = localStorage.getItem("authToken");
 
-        fetch("http://127.0.0.1:8000/api/auth/user/", {
+        fetch("https://e-school-backend.onrender.com/api/auth/user/", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -89,7 +89,7 @@
           email: email,
         };
 
-        fetch("http://127.0.0.1:8000/api/auth/user/update/", {
+        fetch("https://e-school-backend.onrender.com/api/auth/user/update/", {
           method: "PUT",
           headers: {
             "Content-Type": "application/json",
