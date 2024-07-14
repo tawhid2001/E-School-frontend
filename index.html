@@ -47,8 +47,8 @@
 
     <script>
 
-      const userType = localStorage.getItem("user_type");
-      if(userType === 'teacher' || userType==='student'){
+      const token = localStorage.getItem("authToken");
+      if(token){
         document.getElementById("initial").style.display = 'none';
       }
     </script>
