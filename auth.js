@@ -22,7 +22,7 @@ const handleRegistration = (event) =>{
         },
         body:JSON.stringify(registrationData),
     }).then(res=>{
-        alert("Registration Successfull. Please check for confirmation email");
+        // alert("Registration Successfull. Please check for confirmation email");
         window.location.href = "./login.html";
     }
     );
